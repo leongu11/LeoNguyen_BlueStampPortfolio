@@ -1,4 +1,4 @@
-Leo Nguyen
+# Servo-Eye #
 
 A pair of model eyes which pivot and rotate via linkages, in the x and y axis. This will mimic real eyes following a person. If time permits, I could also try training my own simple convolutional neural network on tensorflow or pytorch. My goals of the project are for the relationships to be simplistic and easy to replicate and for it to achieve a somewhat lifelike look. 
 
