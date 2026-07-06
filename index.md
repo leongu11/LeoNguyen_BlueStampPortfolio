@@ -60,7 +60,7 @@ For your first milestone, describe what your project is and how you plan to buil
 ### V1-1 - Universal Joint
 <img width="564" height="624" alt="design iteration 1 1" src="https://github.com/user-attachments/assets/0456477b-895d-4367-b48c-4a0380ddaf93" />
 
-### V1-2 - Optimal 3d printed version
+### V1-2 - 3d printable
 <img width="432" height="402" alt="Screenshot 2026-07-02 at 9 43 00 AM" src="https://github.com/user-attachments/assets/189173cd-d25f-41a6-a040-cd8cceea0cb7" />
 
 ### V2 - Ball Joint
