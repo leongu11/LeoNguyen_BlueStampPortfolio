@@ -66,7 +66,11 @@ For your first milestone, describe what your project is and how you plan to buil
 ### V2 - Ball Joint
 <img width="318" height="410" alt="Screenshot 2026-07-02 at 12 21 08 PM" src="https://github.com/user-attachments/assets/23b09bd0-9b5b-4942-8e2a-34c448b49650" />
 
+### V2 - Ball Joint Assembly 
+<img width="518" height="459" alt="Screenshot 2026-07-06 at 12 22 20 PM" src="https://github.com/user-attachments/assets/161c9bf3-ff01-4e5b-b465-c3eb82926428" />
 
+### V2 - Ball Joint Eyelid Assembly
+<img width="876" height="818" alt="image" src="https://github.com/user-attachments/assets/1d928edc-2352-4ac5-b89a-fb74b36f5999" />
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
