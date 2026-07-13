@@ -1,4 +1,4 @@
-# Servo-Eye #
+# Servo-Actuated-Bionic-Eyes #
 
 A pair of model eyes which pivot and rotate via linkages, in the x and y axis. This will mimic real eyes following a person. If time permits, I could also try training my own simple convolutional neural network on tensorflow or pytorch. My goals of the project are for the relationships to be simplistic and easy to replicate and for it to achieve a somewhat lifelike look. 
 
@@ -47,6 +47,8 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+My project is a servo-driven system which imitates the human eye. The mechanism consists of a series of simple linkages which allow for pitch, roll, and blinking motions. Most of the parts were custom designs and 3D printed. They are joined by M2 and M3 screws, although wood screws may be needed to tap the screw holes. As of now, I have a complete assembly with all the necessary parts for a physical version of the model. I faced many challenges with the CAD. I went through three design iterations using different joints, like the universal joint. However, these designs were bulky and ineffective, so I pivoted to a ball-joint for the movement of the eyes. I created custom housing for the servos and balljoint, which led me to my second challenge, which was tolerances. It took a lot of prototyping to achieve a rigid or rotating relationship between two 3D printed parts with the printers at BlueStamp, and adjusting the assemblies once I had the tolerances figured out was a tedious and frustrating process. I also ran into clearance issues with my balljoints: Once I simulated the motions of my mechanism in the assembly, I realized I could not use a spherical eyeball in spherical eyelids. Instead, I pivoted to a mesh eyelid design that proivded clearance for the pitch and roll movements. However, through all this trial and error, I learned necessary skills in CAD, like how to properly assign joints in assemblies and how to work with mesh and curved bodies. I plan to complete a full physical version, revise my CAD in case of tolerance or clearance issues, and then experimenting with the integration of a vision model (either CNN or kNNs).
+ 
 For your first milestone, describe what your project is and how you plan to build it. You can include:
 - An explanation about the different components of your project and how they will all integrate together
 - Technical progress you've made so far
@@ -56,6 +58,8 @@ For your first milestone, describe what your project is and how you plan to buil
 # Schematics 
 
 ## CAD
+
+### CAD Prototypes - 
 
 ### V1-1 - Universal Joint
 <img width="564" height="624" alt="design iteration 1 1" src="https://github.com/user-attachments/assets/0456477b-895d-4367-b48c-4a0380ddaf93" />
@@ -72,6 +76,11 @@ For your first milestone, describe what your project is and how you plan to buil
 ### V2 - Ball Joint Eyelid Assembly
 <img width="438" height="409" alt="image" src="https://github.com/user-attachments/assets/1d928edc-2352-4ac5-b89a-fb74b36f5999" />
 
+### V2 - Ball Joint Assembly - clearance issue
+<img width="360" height="321" alt="Screenshot 2026-07-08 at 12 20 06 PM" src="https://github.com/user-attachments/assets/d390e336-4aed-41a3-808c-6ddcaa4100b3" />
+<img width="250" height="298" alt="Screenshot 2026-07-08 at 12 20 23 PM" src="https://github.com/user-attachments/assets/fcdef343-da75-45cd-bc67-b3d63daeb2c3" />
+<img width="278" height="276" alt="Screenshot 2026-07-08 at 12 20 29 PM" src="https://github.com/user-attachments/assets/3ca1b02f-cc93-4dd8-a53f-d06d7602f2a0" />
+As you can see, the eye does not fit into the eyelids with this version-- it either needs more clearance or a fitting shape. 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
