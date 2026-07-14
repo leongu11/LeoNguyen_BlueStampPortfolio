@@ -35,6 +35,14 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+- two physical versions
+- v1 had a few unpalnned additions:
+- washers between eyelid screw joints as spacer-type may add washer between two eyelids to prevent from friction
+- wood screws to tap 3d printed holes for the m2 mounting holes
+- put together v1 and found out:
+- changes to eyelid size for more realistic
+- discovered clearance issues between servos & eyelid-linkage issues which are easy fixes
+- servos are not a tight fit - must add M2 mounting holes 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
@@ -48,12 +56,6 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My project is a servo-driven system which imitates the human eye. The mechanism consists of a series of simple linkages which allow for pitch, roll, and blinking motions. Most of the parts were custom designs and 3D printed. They are joined by M2 and M3 screws, although wood screws may be needed to tap the screw holes. As of now, I have a complete assembly with all the necessary parts for a physical version of the model. I faced many challenges with the CAD. I went through three design iterations using different joints, like the universal joint. However, these designs were bulky and ineffective, so I pivoted to a ball-joint for the movement of the eyes. I created custom housing for the servos and balljoint, which led me to my second challenge, which was tolerances. It took a lot of prototyping to achieve a rigid or rotating relationship between two 3D printed parts with the printers at BlueStamp, and adjusting the assemblies once I had the tolerances figured out was a tedious and frustrating process. I also ran into clearance issues with my balljoints: Once I simulated the motions of my mechanism in the assembly, I realized I could not use a spherical eyeball in spherical eyelids. Instead, I pivoted to a mesh eyelid design that proivded clearance for the pitch and roll movements. However, through all this trial and error, I learned necessary skills in CAD, like how to properly assign joints in assemblies and how to work with mesh and curved bodies. I plan to complete a full physical version, revise my CAD in case of tolerance or clearance issues, and then experimenting with the integration of a vision model (either CNN or kNNs).
- 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
 
 # Schematics 
 
