@@ -17,6 +17,8 @@ A pair of model eyes which pivot and rotate via linkages, in the x and y axis. T
   
 # Final Milestone
 
+went through 3 different open source CNN models -- two found on open source Edge Impluse platform built on base model FOMO (Faster Objects More Objects), not accurate enough -- many variables, like lighting, resolution, etc that cannot be altered, had to pivot to an older, better documented CV model, Haar Cascade, but delivers on reliablity. 
+
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
