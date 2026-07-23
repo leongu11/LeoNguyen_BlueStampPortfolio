@@ -1,6 +1,6 @@
 # Servo-Actuated-Bionic-Eyes #
 
-A pair of model eyes which pivot and rotate via linkages, in the x and y axis. This will mimic real eyes following a person. If time permits, I could also try training my own simple convolutional neural network on tensorflow or pytorch. My goals of the project are for the relationships to be simplistic and easy to replicate and for it to achieve a somewhat lifelike look. 
+A pair of mechanically-driven eyes that pivot, rotate, and blink, mimicking the real motions of an eye following a face. ML embedded into mechanical systems.
 
 ```HTML 
 <!--- This is an HTML comment in Markdown -->
@@ -17,18 +17,11 @@ A pair of model eyes which pivot and rotate via linkages, in the x and y axis. T
   
 # Final Milestone
 
-went through 3 different open source CNN models -- two found on open source Edge Impluse platform built on base model FOMO (Faster Objects More Objects), not accurate enough -- many variables, like lighting, resolution, etc that cannot be altered, had to pivot to an older, better documented CV model, Haar Cascade, but delivers on reliablity. 
-
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
-
+I went through three different open source CNN models (found on Edge Impulse) which were refined off of FOMO (Faster Objects More Objects), however these models were not accurate enough to maintain a realistic gaze. There are many factors, like lighting, resolution, etc that I cannot alter myself, so I had to pivot to an older, simpler, and more reliable CV model, Haar Cascade. I integrated my firmware into the mechanism wtih a clever solution that takes the centroids detected face and alters the horizontal by the deviation of the points compared to the face, which was also my biggest challenge. It was extremely tedious calibrating and fine-tuning the mechanics to achieve a realistic motion when paired with my firmware, especially because of the variability of both systems. However, watching my project come to life and mimic a real, biologic thing made the struggle worth it. I am thrilled with how my project turned out and some of the concepts I was able to learn like: properly powering electronics and taking into account current and voltage, integrating two unique systems, and how simpler NNs work in interpreting images. After BlueStamp, I hope to continue developing my design skills and make projects similar to this. 
 
 
 # Second Milestone
