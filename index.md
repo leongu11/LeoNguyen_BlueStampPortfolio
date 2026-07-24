@@ -17,8 +17,6 @@ A pair of mechanically-driven eyes that pivot, rotate, and blink, mimicking the 
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 [![Final Milestone](https://img.youtube.com/vi/-6Dc_2_Wt7I/0.jpg)](https://www.youtube.com/watch?v=-6Dc_2_Wt7I)
 
 I went through three different open source CNN models (found on Edge Impulse) which were refined off of FOMO (Faster Objects More Objects), however these models were not accurate enough to maintain a realistic gaze. There are many factors, like lighting, resolution, etc that I cannot alter myself, so I had to pivot to an older, simpler, and more reliable CV model, Haar Cascade. I integrated my firmware into the mechanism wtih a clever solution that takes the centroids detected face and alters the horizontal by the deviation of the points compared to the face, which was also my biggest challenge. It was extremely tedious calibrating and fine-tuning the mechanics to achieve a realistic motion when paired with my firmware, especially because of the variability of both systems. However, watching my project come to life and mimic a real, biologic thing made the struggle worth it. I am thrilled with how my project turned out and some of the concepts I was able to learn like: properly powering electronics and taking into account current and voltage, integrating two unique systems, and how simpler CV models work in interpreting images. After BlueStamp, I hope to continue developing my design skills and make projects similar to this. 
@@ -26,15 +24,11 @@ I went through three different open source CNN models (found on Edge Impulse) wh
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 [![Second Milestone](https://img.youtube.com/vi/ezH9QzLxu4I/0.jpg)](https://www.youtube.com/watch?v=ezH9QzLxu4I)
 
 After four physical iterations of my design, I finally ended up with one I was satisfied with. My first few versions had a few unplanned additions, like for instance, washers between the eyelid screw joints that act like spacers in order to prevent friction between the two 3D parts. I had to use wood screws to tap the 3D printed holes for the M2 screws to thread at all, and at the end I realized that the eyelids could be smaller in order for the whole assembly to have a more realistic feel (although I left this challenge for later). I discovered numerous clearance and tolerance issues as apart of my first few assemblies, which were easy but tedious fixes. I was definitely caught off guard with the amount of time I would spend on the blinking motion (around 2-3 days) in which I went through a lot of struggle. After a lot of tinkering with the 3D printed linkages I was planning to use, I came to the realization that I would have to use another design, which ultimately was the right choice. One of my favorite parts of this milestone's period was when I fixed a recurring issue with a passive and simple solution. I was having trouble balancing the eyelids on the screw joints, in which they would slide or push each other off and ruin the blinking. I experimented with fastening washers to the ends of the joints when I found a novel solution which would indirectly fix the sliding. For the eyelid to slide off the joints, the opposite side of the lid joint part would have to have enough clearance to slide as well. If I could obstruct the other joint from moving towards the end of the joint, then I could inversely stop the sliding. Thus, I used two nuts on the ends of the joints as a way to passively fix the sliding. These types of satisfying solutions are why I find mechanical engineering so fascinating. My next steps will be integration my hardware with the software. 
 
 # First Milestone
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 [![First Milestone](https://img.youtube.com/vi/hxM0U6uZTik/0.jpg)](https://www.youtube.com/watch?v=hxM0U6uZTik)
 
